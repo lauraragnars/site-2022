@@ -1,15 +1,15 @@
-import Footer from '../footer/footer';
-import Header from '../header/header';
+import Footer from "../footer/Footer";
+import Grid from "../grid/Grid";
+import Header from "../header/Header";
 
 function AppLayout() {
-    return (
-      <div id="app-wrapper">
-        <Header />
+  return (
+    <div id="app-wrapper">
+      <Header />
+      <Grid />
+      <Footer />
+    </div>
+  );
+}
 
-        <Footer />
-      </div>
-    );
-  }
-  
-  export default AppLayout;
-  
+export default AppLayout;
