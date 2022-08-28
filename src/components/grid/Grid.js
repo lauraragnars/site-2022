@@ -1,7 +1,28 @@
-import "./Grid.scss";
+import "./grid.scss";
 
-function Grid() {
-  return <div class="grid"></div>;
+export default function Grid() {
+  return (
+    <div className="grid-container">
+      <div className="line"></div>
+      <div className="line"></div>
+      <div className="line"></div>
+      <div className="line"></div>
+      <div className="line"></div>
+      <div className="line"></div>
+      <div className="line"></div>
+
+      <div>
+        <div className="hoz-line"></div>
+        <div className="hoz-line"></div>
+        <div className="hoz-line"></div>
+        <div className="hoz-line"></div>
+        <div className="hoz-line"></div>
+        <div className="hoz-line"></div>
+        <div className="hoz-line"></div>
+        <div className="hoz-line"></div>
+        <div className="hoz-line"></div>
+        <div className="hoz-line"></div>
+      </div>
+    </div>
+  );
 }
-
-export default Grid;
